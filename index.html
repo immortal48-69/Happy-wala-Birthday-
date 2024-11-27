@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 November 2024</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      text-align: center;
+      padding-top: 50px;
+      margin: 0;
+      height: 100vh;
+    }
+
+    /* Zoom-In Effect */
+    .zoom-in {
+      opacity: 0;
+      transform: scale(0.5);
+      animation: zoomIn 1s forwards;
+    }
+
+    @keyframes zoomIn {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Fade-In Effect */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+ /* Fade-In Effect */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+
+    /* Pop-up Effect for the Reveal Button */
+    .popup {
+      opacity: 0;
+      transform: scale(0);
+      animation: popup 1s forwards;
+    }
+
+    @keyframes popup {
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Hidden Video */
+    .hidden-video {
+      display: none;
+      margin-top: 20px;
+      border: 2px solid #ff6347;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .reveal-btn {
+      display: none;
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .reveal-btn:hover {
+      background-color: #ff4500;
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+  <!-- Zoom-in Title -->
+  <h1 class="zoom-in">Hey, Cutikaa! 🌟</h1>
+ <!-- Adding some space and delay before the button -->
+  <div style="height: 100px;"></div>
+
+  <!-- Typewriting Effect for Second Sentence -->
+  <p class="fade-in">I know we’re far apart today, but I wanted to make sure you have the most amazing birthday! 💖</p>
+
+  <!-- Fade In Effect for Third Sentence -->
+  <p class="fade-in">Enjoy your birthday,I wish you the best for your future and also<br> gift bhijwa dena saara mere liye,and party pending!!!!!!!
+and ik ki bahot se wishes aaye <br>honge acche achhe aapke liye but still ye aapke liye meri trf se chhoti si gift!
+<br>aaj ke liye Filhal itna hi aapki tarh ham bhi khush hai!🌝 🎂</p>
+ <!-- Adding some space and delay before the button -->
+  <div style="height: 200px;"></div>
+
+  <!-- Pop-up Effect for This Sentence -->
+  <p class="popup">Nicheeeee Scroll krooooooooooo! 🎉</p>
+
+  <!-- Adding some space and delay before the button -->
+  <div style="height: 800px;"></div>
+
+   <button class="btn" onclick="revealVideo()">Click krroooooooooooo!!</button>
+
+  <div class="hidden-video" id="video-container">
+    <iframe
+src="https://drive.google.com/file/d/1zEGnpksfeIe1xaYAWBz2hrNaSw9y4n-G/view?usp=sharing" 
+width="640" height="480" allow="autoplay"></iframe>
+  </div>
+
+<script>
+   function revealVideo() {
+      document.getElementById("video-container").style.display = "block";
+    }  </script>
+</body>
+</html>
